@@ -12,8 +12,6 @@ public class Ex_04 {
 				System.out.print("Informe um número: ");
 				matriz[l][c]=leia.nextInt();
 			}
-		}	System.out.println();
-			
-			System.out.println("Soma diagonal principal:" + (matriz[0][0] + matriz[1][1]+ matriz[2][2]) + "\t");
+		}	System.out.println("Soma diagonal principal:" + (matriz[0][0] + matriz[1][1]+ matriz[2][2]) + "\t");
 	}
 }
