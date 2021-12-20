@@ -8,5 +8,12 @@ public class Cliente extends Pessoa {
 		//this.idade = idade;
 	}
 
-	
+	//GETTERS E SETTERS DA SUPER CLASSE PESSOA
+		public String getNome() {
+			return super.getNome();
+		}
+		
+		public int getMatricula() {
+			return super.getMatricula();
+		}
 }
